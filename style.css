@@ -1,0 +1,123 @@
+.body{
+    color:rgb(0, 0, 0);
+    background-color: rgb(243, 210, 210); 
+}
+.background{
+   background-size:190vh;
+   height:60vh;
+    display:flex;
+    background-repeat:no-repeat;
+    background-image: url("https://wallpapers.com/images/hd/food-4k-m37wpodzrcbv5gvw.jpg")
+    } 
+.submit{
+    height:5vh;
+    width: 20vh;
+    margin-top:50vh;
+    color: brown;
+    border-radius: 5vh;
+    margin-left: 0vh;
+    } 
+    
+.heading{
+    color: aliceblue;
+    font-size:12vh;
+   font-family:jua;
+   margin-top:0;
+   margin-left:3vh;
+}
+#searchedoutput{
+display:grid;
+margin-top:10vh;
+height: 2vh;
+width: 2vh;
+border-radius:2vh
+}
+
+.heading2{
+   margin-top:5vh;
+   font-family:jua; 
+   color: brown;
+   font-size: 5vh;
+
+}
+.pizza{
+    font-family:julee;
+    margin-left:130vh;
+    font-size: 8vh;
+    margin-top: 0px;
+    color: brown;
+}
+#pizzaimage{
+    margin-left:10vh;
+    height:35vh ;
+    width:35vh;
+    margin-top:15vh;
+    border-radius: 5vh;
+}
+#INGREDIENTS{
+    margin-left:0vh;
+    margin-top: 12vh;
+}
+.flex1{
+    display: flex;
+}
+
+#searchm{
+margin-top: 50vh;
+height: 4vh;
+width: 60vh;
+border-radius:2vh;
+} 
+#foodlist{
+    margin-top:5vh;
+    font-family:jua; 
+    color: brown;
+    font-size: 5vh;
+}
+
+@media screen and (max-width: 460px) {
+    /* *{
+        text-align: center;
+    }
+    .background{
+        width: 700px;
+    }
+    #randomList ,#searchList{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .flex1{
+        flex-direction: column;
+    }
+    #name , #headed{
+        font-size: 5vh;
+        text-align: center;
+        margin-left: 2vh;
+    }
+    #searchBox{
+        padding: 1vh;
+        display: flex;
+        align-items: center;
+    }
+    #Imgs{
+        display: flex;
+        justify-content: space-around;
+    }
+    #pizzaimage ,#Img{
+        font-size: 5vh;
+    }
+    #box{
+        display: flex;
+        align-items: center;
+        padding: 1vh;
+        width: auto;
+        justify-content: space-around;
+    }
+    .heading{
+        bottom: 60vh;
+    }
+    #sub{
+        width: auto;
+        padding: 2vh;
+    } */
+} 
